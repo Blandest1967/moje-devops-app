@@ -4,7 +4,7 @@ name: CI Pipeline - Test Build
 # Vždy, když někdo nahraje kód (push) do hlavní větve (main)
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
 jobs:
   build-test:
